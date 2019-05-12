@@ -1,0 +1,71 @@
+.mainContainer{
+    background-image: url("../images/фитнес-за-начинаещи-2.jpg");
+    background-blend-mode : multiply;
+    padding-bottom: 200px;
+}
+.main-nav {
+    text-align: center;
+    font-size: 1.1em ;
+    font-weight: lighter;
+}
+.main-nav li{
+    padding: 0 5%;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .7em;
+    color: white;
+    text-decoration: none;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+.nav li {
+    display: inline;
+}
+.content-section{
+    margin: 1em;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header{
+    text-align: center;
+    font-size: 2.5em;
+    font-family: "Fira Code";
+}
+.section-header-2{
+    margin: 1em;
+    color: #721c24;
+}
+.about-band-image{
+    float: left;
+    height: 350px;
+    width: 400px;
+    margin: 15px;
+    border-radius: 50%;
+}
+.articles-item-title{
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-size: 1.0em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+}
+.about-band-image{
+    height: 200px;
+    width: 200px;
+}
+.articles-item-details{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.articles-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

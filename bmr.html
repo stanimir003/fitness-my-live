@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/start.css" />
+</head>
+<body>
+<header class="mainContainer">
+    <nav class="nav main-nav">
+        <ul>
+            <li><a href="start.html">НАЧАЛО</a></li>
+            <li><a href="training.html">ТРЕНИРОВКИ</a></li>
+            <li><a href="eating.html">ХРАНЕНЕ</a></li>
+            <li><a href="calculators.html">КАЛКУЛАТОРИ</a></li>
+            <li><a href="loggin.html">ВХОД</a></li>
+            <li><a href="User.html">МОЯТ АКАУНТ</a></li>
+
+        </ul>
+    </nav>
+</header>
+<form action="/bmr" method="get">
+    Weight<input type="number" name="weight"><br>
+    Height <input type="number" name="height"><br>
+    Old <input type="number" name="old"><br>
+    Physical Activity <select type="number" name="kfa">
+        <option value="1.2">заседнал</option>
+        <option value="1.375">спорт 1-3 пъти седмично</option>
+        <option value="1.55">спорт 3-5 пъти седмично</option>
+        <option value="1.725">спорт 6-7 пъти седмично</option>
+        <option value="1.9">спорт всеки ден заедно с тежък физически труд или двуразови тренировки</option>
+    </select><br>
+    Gender  <select type="text" name="gender">
+    <option value="m">Male</option>
+    <option value="f">Female</option>
+</select><br>
+<input type="submit">
+</form>
+</body>
+</html>

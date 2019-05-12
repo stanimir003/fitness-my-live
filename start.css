@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
+
+html body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .7em;
+    color: white;
+    text-decoration: none;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+.main-nav {
+    text-align: center;
+    font-size: 1.1em ;
+    font-weight: lighter;
+}
+.main-nav li{
+    padding: 0 5%;
+}
+
+.mainContainer{
+    background-image: url("../images/фитнес-за-начинаещи-2.jpg");
+   background-blend-mode : multiply;
+    padding-bottom: 300px;
+}
+
+.section-header{
+    font-family: "Bookman Old Style";
+    font-weight: normal;
+    text-align: left;
+    font-size: 3em;
+}
+.content-section {
+    font-family: "Bookman Old Style";
+    font-weight: normal;
+    text-align: left;
+    font-size: 1.5em;
+}
+.about-band-image{
+    float: right;
+    height: 600px ;
+    width: 500px;
+    margin: 100px;
+
+
+}
+.-calculator-items{
+    margin: 30px;
+}
+.cal-name-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}

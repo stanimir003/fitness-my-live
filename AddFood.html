@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/start.css" />
+</head>
+<body>
+
+<header class="mainContainer">
+    <nav class="nav main-nav">
+        <ul>
+            <li><a href="start.html">НАЧАЛО</a></li>
+            <li><a href="training.html">ТРЕНИРОВКИ</a></li>
+            <li><a href="eating.html">ХРАНЕНЕ</a></li>
+            <li><a href="calculators.html">КАЛКУЛАТОРИ</a></li>
+            <li><a href="loggin.html">ВХОД</a></li>
+            <li><a href="User.html">МОЯТ АКАУНТ</a></li>
+
+        </ul>
+    </nav>
+</header>
+<form action="/addFoodToUser" method="post">
+    Храна <select type="text" name="food">
+    <option value="Пилешко месо (бяло месо)">Пилешко месо (бяло месо)</option>
+    <option value="Пилешко месо (червено месо">Пилешко месо (червено месо</option>
+    <option value="Патица (чисто месо)">Патица (чисто месо)</option>
+    <option value="Гъска (чисто месо)">Гъска (чисто месо)</option>
+    <option value="Фазан (чисто месо)">Фазан (чисто месо)</option>
+    <option value="Щраус (чисто месо)">Щраус (чисто месо)</option>
+    <option value="Пъдпъдък (чисто месо)">Пъдпъдък (чисто месо)</option>
+    <option value="Пуйка (чисто месо)">Пуйка (чисто месо)</option>
+    <option value="Яйце (от кокошка)">Яйце (от кокошка)</option>
+    <option value="Яйце (от пъдпъдък)">Яйце (от пъдпъдък)</option>
+    <option value="Яйце (от пуйка)">Яйце (от пуйка)</option>
+    <option value="Яйце (от гъска)">Яйце (от гъска)</option>
+    <option value="Сьомга (сурова)">Сьомга (сурова)</option>
+    <option value="Лефер (суров)">Лефер (суров)</option>
+    <option value="Шаран (суров)">Шаран (суров)</option>
+    <option value="Сом (суров)">Сом (суров)</option>
+    <option value="Треска (сурова)">Треска (сурова)</option>
+    <option value="Херинга (сурова)">Херинга (сурова)</option>
+    <option value="Скумрия (сурова)">Скумрия (сурова)</option>
+    <option value="Костур (суров)">Костур (суров)</option>
+    <option value="Щука (сурова)">Щука (сурова)</option>
+    <option value="Карагьоз (суров)">Карагьоз (суров)</option>
+    <option value="Акула (сурова)">Акула (сурова)</option>
+    <option value="Щука (сурова)">Щука (сурова)</option>
+    <option value="Пъстърва (сурова)">Пъстърва (сурова)</option>
+    <option value="Калкан (суров)">Калкан (суров)</option>
+    <option value="Бяла риба (сурова)">Бяла риба (сурова)</option>
+    <option value="Скариди (сурови)">Скариди (сурови)</option>
+    <option value="Черна мида (сурови)">Черна мида (сурови)</option>
+    <option value="Зеленоустна мида мида (сурови)">Зеленоустна мида мида (сурови)</option>
+    <option value="Сепия (сурова)">Сепия (сурова)</option>
+    <option value="Октопод (суров)">Октопод (суров)</option>
+    <option value="Калмари (сурови)">Калмари (сурови)</option>
+    <option value="Стриди (сурови)">Стриди (сурови)</option>
+    <option value="Мекотели и охлюви (сурови)">Мекотели и охлюви (сурови)</option>
+    <option value="Телешко (сурово)">Телешко (сурово)</option>
+    <option value="Глиганско месо (сурово)">Глиганско месо (сурово)</option>
+    <option value="Биволско месо (сурово)">Биволско месо (сурово)</option>
+    <option value="Еленско месо (сурово)">Еленско месо (сурово)</option>
+    <option value="Козе месо (сурово)">Козе месо (сурово)</option>
+    <option value="Конско месо (сурово)">Конско месо (сурово)</option>
+    <option value="Заешко месо (сурово)">Заешко месо (сурово)</option>
+    <option value="Агнешко месо (сурово)">Агнешко месо (сурово)</option>
+    <option value="Извара (суроватъчна)">Извара (суроватъчна)</option>
+    <option value="Кашкавал (от биволско мляко)">Кашкавал (от биволско мляко)</option>
+    <option value="Кисело мляко (4.5%)">Кисело мляко (4.5%)</option>
+    <option value="Краве сирене">Краве сирене</option>
+    <option value="Синьо сирене">Синьо сирене</option>
+    <option value="Сирене Бри">Сирене Бри</option>
+    <option value="Сирене Камембер">Сирене Камембер</option>
+    <option value="Сирене Чедър">Сирене Чедър</option>
+    <option value="Сирене Фета">Сирене Фета</option>
+    <option value="Сирене Гауда">Сирене Гауда</option>
+    <option value="Сирене Моцарела (обезмаслено)">Сирене Моцарела (обезмаслено)</option>
+    <option value="Сирене Пармезан (настърган)">Сирене Пармезан (настърган)</option>
+    <option value="Сирене Рикота (полуобезмаслено)">Сирене Рикота (полуобезмаслено)</option>
+    <option value="Суха сметана">Суха сметана</option>
+    <option value="Козе мляко">Козе мляко</option>
+    <option value="Овче мляко">Овче мляко</option>
+    <option value="Бял боб (суров)">Бял боб (суров)</option>
+    <option value="Черен боб (суров)">Черен боб (суров)</option>
+    <option value="Грах (суров)">Грах (суров)</option>
+    <option value="Леща (сурова)">Леща (сурова)</option>
+    <option value="Нахут (суров)">Нахут (суров)</option>
+    <option value="Жълт картоф (с кората)">Жълт картоф (с кората)</option>
+    <option value="Червен (сладък) картоф (с кората)">Червен (сладък) картоф (с кората)</option>
+    <option value="Овесени ядки">Овесени ядки</option>
+    <option value="Ръжени ядки">Ръжени ядки</option>
+    <option value="ПилеБял оризшко">Бял ориз</option>
+    <option value="Кафяв ориз">Кафяв ориз</option>
+    <option value="Черен ориз">Черен ориз</option>
+    <option value="Киноа (бяла, черна и червена)">Киноа (бяла, черна и червена)</option>
+    <option value="Просо">Просо</option>
+    <option value="Амарант">Амарант</option>
+    <option value="Елда">Елда</option>
+    <option value="Булгур">Пилешко</option>
+    <option value="Булгур">Булгур</option>
+    <option value="Хляб (пълнозърнест)">Хляб (пълнозърнест)</option>
+    <option value="Сухар">Сухар</option>
+    <option value="Кус-Кус">Кус-Кус</option>
+    <option value="Макарони Пене">Макарони Пене</option>
+    <option value="Макарони Фузили">Макарони Фузили</option>
+    <option value="Макарони Канелони">Макарони Канелони</option>
+    <option value="Спагети">Спагети</option>
+    <option value="Царевица (сурова)">Царевица (сурова)</option>
+    <option value="ПилКълнове от люцернаешко">Кълнове от люцерна</option>
+    <option value="Артишок">Артишок</option>
+    <option value="Аспержи">Аспержи</option>
+    <option value="Цвекло">Цвекло</option>
+    <option value="Броколи">Броколи</option>
+    <option value="Зеле (брюкселско)">Зеле (брюкселско)</option>
+    <option value="Зеле (бяло)">Зеле (бяло)</option>
+    <option value="Зеле (червено)">Зеле (червено)</option>
+    <option value="Зеле (китайско)	">Зеле (китайско)	</option>
+    <option value="Моркови">Моркови</option>
+    <option value="Карфиол">Карфиол</option>
+    <option value="Целина">Целина</option>
+    <option value="Цикория">Цикория</option>
+    <option value="Краставица (обелена)">Краставица (обелена)</option>
+    <option value="Листа от глухарче">Листа от глухарче</option>
+    <option value="Патладжан">Патладжан</option>
+    <option value="Праз">Праз</option>
+    <option value="Маруля">Маруля</option>
+    <option value="Лук">Лук</option>
+    <option value="Пипер (зелена и червена чушка)">Пипер (зелена и червена чушка)</option>
+    <option value="Репички">Репички</option>
+    <option value="Спанак">Спанак</option>
+    <option value="Домати">Домати</option>
+    <option value="Лапад">Лапад</option>
+    <option value="Рукола">Рукола</option>
+    <option value="Ананас">Ананас</option>
+    <option value="Банан">Банан</option>
+    <option value="Портокал">Портокал</option>
+    <option value="Ябълка (необелена)	">Ябълка (необелена)</option>
+    <option value="Кайсия">Кайсия</option>
+    <option value="Боровинка">Боровинка</option>
+    <option value="Череша">Череша</option>
+    <option value="Смокиня">Смокиня</option>
+    <option value="Грозде">Грозде</option>
+    <option value="Лайм">Лайм</option>
+    <option value="Пъпеш">Пъпеш</option>
+    <option value="Мандарина">Мандарина</option>
+    <option value="Папая">Папая</option>
+    <option value="Праскова">Праскова</option>
+    <option value="Круша">Круша</option>
+    <option value="Малина">Малина</option>
+    <option value="Ягода">Ягода</option>
+    <option value="Диня">Диня</option>
+    <option value="Помело">Помело</option>
+    <option value="Слива">Слива</option>
+    <option value="Какао зърна">Какао зърна</option>
+    <option value="Ленено семе">Ленено семе</option>
+    <option value="Слънчогледови семки">Слънчогледови семки</option>
+    <option value="Бадем">Бадем</option>
+    <option value="Бразилски орех">Бразилски орех</option>
+    <option value="Лешник">Лешник</option>
+    <option value="Макадамия">Макадамия</option>
+    <option value="Орех">Орех</option>
+    <option value="Тиквени семки">Тиквени семки</option>
+    <option value="Тиквени семки">Тиквени семки</option>
+    <option value="Кашу">Кашу</option>
+    <option value="Фъстъци">Фъстъци</option>
+    Grams<input type="number" name="grams"><br>
+</select>
+    <input type="submit">
+</form>
+</body>
+</html>
